@@ -1,0 +1,116 @@
+nav{
+    flex: 1;
+    text-align: right;
+    margin-top: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+.text-center{
+    margin-top: 30px;
+}
+.prototype{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img-muka{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-login{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-welcome{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-utama{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-destinasi1{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-destinasi2{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-hotel{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-wisata{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-pesawat{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-kereta1{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-kereta2{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-bus1{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-bus2{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-kapal1{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-kapal2{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-CS1{
+    width: 300px;
+    margin-top: 20px;
+}
+.img-CS2{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img-diskon{
+    width: 300px;
+    margin-top: 20px;
+}
