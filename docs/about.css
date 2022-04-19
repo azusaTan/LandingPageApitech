@@ -1,116 +1,166 @@
-nav{
-    flex: 1;
-    text-align: right;
-    margin-top: 50px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 50px;
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(proto/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-nav ul li a{
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
     text-decoration: none;
-    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
-nav ul li a:hover{
-    color: #ff5ea2;
+header ul{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    
 }
-.text-center{
-    margin-top: 30px;
-}
-.prototype{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.img-muka{
-    width: 300px;
+header ul li{
+    list-style: none ;
     margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
 }
-.img-login{
-    width: 300px;
-    margin-top: 20px;
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
 }
-.img-welcome{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+header ul li a:hover,
+header ul li a.active{
+    background: #fff;
+    color: #2b1055;
 }
-.img-utama{
-    width: 300px;
-    margin-top: 20px;
+.about{
+    width: 100%;
+    padding: 78px 0;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    transform: translateY(-50);
+    z-index: 2;
 }
-.img-destinasi1{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.about-text{
+    width: 1200px
+    ;
 }
-.img-destinasi2{
-    width: 300px;
-    margin-top: 20px;
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
-.img-hotel{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.about-text p{
+    color: rgba(61, 186, 171, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    
 }
-.img-wisata{
-    width: 300px;
-    margin-top: 20px;
+.team center{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
-.img-pesawat{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.anggi{
+    width: 100%;
+    padding: 78px 0;
 }
-.img-kereta1{
-    width: 300px;
-    margin-top: 20px;
+.anggi img{
+    height:auto ;
+    width: 480px;
 }
-.img-kereta2{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.team-text{
+    width: 550px;
 }
-.img-bus1{
-    width: 300px;
-    margin-top: 20px;
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
 }
-.img-bus2{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.team-text h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
 }
-.img-kapal1{
-    width: 300px;
-    margin-top: 20px;
+.team-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px ;
 }
-.img-kapal2{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+span{
+    color: #f9004d;
 }
-.img-CS1{
-    width: 300px;
-    margin-top: 20px;
+.team-text p{
+    color: rgba(61, 186, 171, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;    
 }
-.img-CS2{
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
+.farhan{
+    width: 100%;
+    padding: 78px 0;
 }
-.img-diskon{
-    width: 300px;
-    margin-top: 20px;
+.farhan img{
+    height:auto ;
+    width: 500px;
+}
+.sultan{
+    width: 100%;
+    padding: 78px 0;
+}
+.sultan img{
+    height:auto ;
+    width: 480px;
+}
+.nafiza{
+    width: 100%;
+    padding: 78px 0;
+}
+.nafiza img{
+    height:auto ;
+    width: 480px;
+}
+.akram{
+    width: 100%;
+    padding: 78px 0;
+}
+.akram img{
+    height:auto ;
+    width: 480px;
 }
